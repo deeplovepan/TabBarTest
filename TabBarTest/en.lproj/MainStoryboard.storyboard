@@ -36,13 +36,13 @@
                             <constraint firstAttribute="centerY" secondItem="21" secondAttribute="centerY" type="user" id="yWk-L2-m9F"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="7"/>
+                    <tabBarItem key="tabBarItem" title="Rabbit" image="first" id="7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="653" y="-138"/>
         </scene>
-        <!--View Controller - Item-->
+        <!--View Controller - Monkey-->
         <scene sceneID="ZBv-p7-dLX">
             <objects>
                 <viewController id="JLM-xX-Jr6" sceneMemberID="viewController">
@@ -51,7 +51,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Nmg-r2-zSo"/>
+                    <tabBarItem key="tabBarItem" title="Monkey" id="Nmg-r2-zSo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h5t-OJ-uBw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -89,7 +89,7 @@
                             <constraint firstItem="23" firstAttribute="top" secondItem="22" secondAttribute="bottom" constant="40" type="user" id="yUx-Ee-KEk"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="6"/>
+                    <tabBarItem key="tabBarItem" title="Bear" image="second" id="6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
             </objects>
