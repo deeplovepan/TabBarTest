@@ -28,6 +28,9 @@
 		A6CD272D1726C2C8001A0DA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CD26FD1726C2C8001A0DA7 /* Foundation.framework */; };
 		A6CD27351726C2C8001A0DA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6CD27331726C2C8001A0DA7 /* InfoPlist.strings */; };
 		A6CD27381726C2C8001A0DA7 /* TabBarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CD27371726C2C8001A0DA7 /* TabBarTestTests.m */; };
+		A6CD27E01726F78A001A0DA7 /* planet.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CD27DF1726F78A001A0DA7 /* planet.png */; };
+		A6CD27E21726F790001A0DA7 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CD27E11726F790001A0DA7 /* heart.png */; };
+		A6CD27E41726F796001A0DA7 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CD27E31726F796001A0DA7 /* star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		A6CD27341726C2C8001A0DA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A6CD27361726C2C8001A0DA7 /* TabBarTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarTestTests.h; sourceTree = "<group>"; };
 		A6CD27371726C2C8001A0DA7 /* TabBarTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarTestTests.m; sourceTree = "<group>"; };
+		A6CD27DF1726F78A001A0DA7 /* planet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planet.png; sourceTree = "<group>"; };
+		A6CD27E11726F790001A0DA7 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		A6CD27E31726F796001A0DA7 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +153,9 @@
 		A6CD27021726C2C8001A0DA7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A6CD27E31726F796001A0DA7 /* star.png */,
+				A6CD27DF1726F78A001A0DA7 /* planet.png */,
+				A6CD27E11726F790001A0DA7 /* heart.png */,
 				A6CD27031726C2C8001A0DA7 /* TabBarTest-Info.plist */,
 				A6CD27041726C2C8001A0DA7 /* InfoPlist.strings */,
 				A6CD27071726C2C8001A0DA7 /* main.m */,
@@ -257,6 +266,9 @@
 				A6CD271C1726C2C8001A0DA7 /* first@2x.png in Resources */,
 				A6CD27211726C2C8001A0DA7 /* second.png in Resources */,
 				A6CD27231726C2C8001A0DA7 /* second@2x.png in Resources */,
+				A6CD27E01726F78A001A0DA7 /* planet.png in Resources */,
+				A6CD27E21726F790001A0DA7 /* heart.png in Resources */,
+				A6CD27E41726F796001A0DA7 /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
