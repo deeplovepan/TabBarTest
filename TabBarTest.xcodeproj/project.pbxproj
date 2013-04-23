@@ -34,6 +34,7 @@
 		A6CD27E81726F943001A0DA7 /* tabBear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6CD27E51726F943001A0DA7 /* tabBear.jpg */; };
 		A6CD27E91726F943001A0DA7 /* tabMonkey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6CD27E61726F943001A0DA7 /* tabMonkey.jpg */; };
 		A6CD27EA1726F943001A0DA7 /* tabRabbit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6CD27E71726F943001A0DA7 /* tabRabbit.jpg */; };
+		A6CD27ED1726FA3D001A0DA7 /* MonkeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CD27EC1726FA3D001A0DA7 /* MonkeyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		A6CD27E51726F943001A0DA7 /* tabBear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tabBear.jpg; sourceTree = "<group>"; };
 		A6CD27E61726F943001A0DA7 /* tabMonkey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tabMonkey.jpg; sourceTree = "<group>"; };
 		A6CD27E71726F943001A0DA7 /* tabRabbit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tabRabbit.jpg; sourceTree = "<group>"; };
+		A6CD27EB1726FA3D001A0DA7 /* MonkeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonkeyViewController.h; sourceTree = "<group>"; };
+		A6CD27EC1726FA3D001A0DA7 /* MonkeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonkeyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,8 @@
 			children = (
 				A6CD270A1726C2C8001A0DA7 /* AppDelegate.h */,
 				A6CD270B1726C2C8001A0DA7 /* AppDelegate.m */,
+				A6CD27EB1726FA3D001A0DA7 /* MonkeyViewController.h */,
+				A6CD27EC1726FA3D001A0DA7 /* MonkeyViewController.m */,
 				A6CD27131726C2C8001A0DA7 /* MainStoryboard.storyboard */,
 				A6CD27161726C2C8001A0DA7 /* FirstViewController.h */,
 				A6CD27171726C2C8001A0DA7 /* FirstViewController.m */,
@@ -319,6 +324,7 @@
 				A6CD270C1726C2C8001A0DA7 /* AppDelegate.m in Sources */,
 				A6CD27181726C2C8001A0DA7 /* FirstViewController.m in Sources */,
 				A6CD271F1726C2C8001A0DA7 /* SecondViewController.m in Sources */,
+				A6CD27ED1726FA3D001A0DA7 /* MonkeyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
