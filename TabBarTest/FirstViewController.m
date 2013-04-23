@@ -19,7 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    self.tabBarController.tabBar.tintColor = [UIColor redColor];
+    self.tabBarController.tabBar.selectedImageTintColor = [UIColor greenColor];
 }
 
 - (void)didReceiveMemoryWarning
