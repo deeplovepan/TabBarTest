@@ -31,6 +31,9 @@
 		A6CD27E01726F78A001A0DA7 /* planet.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CD27DF1726F78A001A0DA7 /* planet.png */; };
 		A6CD27E21726F790001A0DA7 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CD27E11726F790001A0DA7 /* heart.png */; };
 		A6CD27E41726F796001A0DA7 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CD27E31726F796001A0DA7 /* star.png */; };
+		A6CD27E81726F943001A0DA7 /* tabBear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6CD27E51726F943001A0DA7 /* tabBear.jpg */; };
+		A6CD27E91726F943001A0DA7 /* tabMonkey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6CD27E61726F943001A0DA7 /* tabMonkey.jpg */; };
+		A6CD27EA1726F943001A0DA7 /* tabRabbit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6CD27E71726F943001A0DA7 /* tabRabbit.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		A6CD27DF1726F78A001A0DA7 /* planet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planet.png; sourceTree = "<group>"; };
 		A6CD27E11726F790001A0DA7 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 		A6CD27E31726F796001A0DA7 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		A6CD27E51726F943001A0DA7 /* tabBear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tabBear.jpg; sourceTree = "<group>"; };
+		A6CD27E61726F943001A0DA7 /* tabMonkey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tabMonkey.jpg; sourceTree = "<group>"; };
+		A6CD27E71726F943001A0DA7 /* tabRabbit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tabRabbit.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,9 @@
 		A6CD27021726C2C8001A0DA7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A6CD27E51726F943001A0DA7 /* tabBear.jpg */,
+				A6CD27E61726F943001A0DA7 /* tabMonkey.jpg */,
+				A6CD27E71726F943001A0DA7 /* tabRabbit.jpg */,
 				A6CD27E31726F796001A0DA7 /* star.png */,
 				A6CD27DF1726F78A001A0DA7 /* planet.png */,
 				A6CD27E11726F790001A0DA7 /* heart.png */,
@@ -269,6 +278,9 @@
 				A6CD27E01726F78A001A0DA7 /* planet.png in Resources */,
 				A6CD27E21726F790001A0DA7 /* heart.png in Resources */,
 				A6CD27E41726F796001A0DA7 /* star.png in Resources */,
+				A6CD27E81726F943001A0DA7 /* tabBear.jpg in Resources */,
+				A6CD27E91726F943001A0DA7 /* tabMonkey.jpg in Resources */,
+				A6CD27EA1726F943001A0DA7 /* tabRabbit.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

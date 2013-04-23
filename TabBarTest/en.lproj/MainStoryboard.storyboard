@@ -12,28 +12,14 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="20">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Loaded by the first view controller — an instance of FirstViewController — specified in the app delegate." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="21">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="Ikv-jk-tyi"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="tabRabbit.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5an-ME-qaj"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="21" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="QBg-X6-fBV"/>
-                            <constraint firstAttribute="trailing" secondItem="20" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Qxj-1L-2Yh"/>
-                            <constraint firstItem="20" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Ty9-wx-CyI"/>
-                            <constraint firstItem="21" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Zmm-k2-2L7"/>
-                            <constraint firstItem="21" firstAttribute="top" secondItem="20" secondAttribute="bottom" constant="40" type="user" id="jX0-Wi-kmb"/>
-                            <constraint firstAttribute="centerY" secondItem="21" secondAttribute="centerY" type="user" id="yWk-L2-m9F"/>
+                            <constraint firstItem="5an-ME-qaj" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="1sb-92-hTv"/>
+                            <constraint firstItem="5an-ME-qaj" firstAttribute="bottom" secondItem="16" secondAttribute="bottom" type="default" id="HEq-sc-zD4"/>
+                            <constraint firstItem="5an-ME-qaj" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="ZPs-lY-dBv"/>
+                            <constraint firstItem="5an-ME-qaj" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="jB1-AA-GAz"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Rabbit" image="heart.png" id="7"/>
@@ -49,7 +35,16 @@
                     <view key="view" contentMode="scaleToFill" id="hOn-Kn-EEs">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="tabMonkey.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ZSc-BF-Xqi"/>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZSc-BF-Xqi" firstAttribute="top" secondItem="hOn-Kn-EEs" secondAttribute="top" type="default" id="2L2-ND-jyI"/>
+                            <constraint firstItem="ZSc-BF-Xqi" firstAttribute="leading" secondItem="hOn-Kn-EEs" secondAttribute="leading" type="default" id="Jqg-2D-iWA"/>
+                            <constraint firstItem="ZSc-BF-Xqi" firstAttribute="trailing" secondItem="hOn-Kn-EEs" secondAttribute="trailing" type="default" id="lkY-rF-Fli"/>
+                            <constraint firstItem="ZSc-BF-Xqi" firstAttribute="bottom" secondItem="hOn-Kn-EEs" secondAttribute="bottom" type="default" id="z3F-gk-LWF"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Monkey" image="planet.png" id="Nmg-r2-zSo"/>
                 </viewController>
@@ -65,28 +60,14 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="22">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Loaded by the second view controller — an instance of SecondViewController — specified in the app delegate." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="23">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="cQR-IW-sY8"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="tabBear.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="o58-8u-Sxo"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="22" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="0q6-IA-e8m"/>
-                            <constraint firstAttribute="trailing" secondItem="23" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fR4-wH-Ih7"/>
-                            <constraint firstItem="23" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="fzb-YA-SeR"/>
-                            <constraint firstAttribute="centerY" secondItem="23" secondAttribute="centerY" type="user" id="llH-eD-iPS"/>
-                            <constraint firstAttribute="trailing" secondItem="22" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="pc3-9Y-W42"/>
-                            <constraint firstItem="23" firstAttribute="top" secondItem="22" secondAttribute="bottom" constant="40" type="user" id="yUx-Ee-KEk"/>
+                            <constraint firstItem="o58-8u-Sxo" firstAttribute="trailing" secondItem="17" secondAttribute="trailing" type="default" id="IqT-Ek-VwD"/>
+                            <constraint firstItem="o58-8u-Sxo" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="JDA-uI-LlA"/>
+                            <constraint firstItem="o58-8u-Sxo" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="mcf-gz-ocs"/>
+                            <constraint firstItem="o58-8u-Sxo" firstAttribute="bottom" secondItem="17" secondAttribute="bottom" type="default" id="qVK-Kj-lw5"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Bear" image="star.png" id="6"/>
@@ -122,6 +103,9 @@
         <image name="heart.png" width="24" height="21"/>
         <image name="planet.png" width="29" height="18"/>
         <image name="star.png" width="26" height="26"/>
+        <image name="tabBear.jpg" width="800" height="529"/>
+        <image name="tabMonkey.jpg" width="575" height="423"/>
+        <image name="tabRabbit.jpg" width="705" height="489"/>
     </resources>
     <classes>
         <class className="FirstViewController" superclassName="UIViewController">
